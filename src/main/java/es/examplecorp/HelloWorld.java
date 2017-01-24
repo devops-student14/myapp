@@ -39,7 +39,7 @@ public class HelloWorld implements SparkApplication {
         // post("/redis",(req,res) -> redisSetContent("hello", req.params("msg")));
 
         // Loader.io verification code
-        get("/loaderio-fa6f90599a9347c24bcb3cbf26781961", (req,res) -> "loaderio-fa6f90599a9347c24bcb3cbf26781961");
+        get("/loaderio-fa6f90599a9347c24bcb3cbf26781961.txt", (req,res) -> "loaderio-fa6f90599a9347c24bcb3cbf26781961");
 
     }
 
