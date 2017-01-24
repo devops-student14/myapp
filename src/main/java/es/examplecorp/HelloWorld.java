@@ -38,6 +38,9 @@ public class HelloWorld implements SparkApplication {
         // Not working: it says req.params is empty
         // post("/redis",(req,res) -> redisSetContent("hello", req.params("msg")));
 
+        // Loader.io verification code
+        get("/loaderio-fa6f90599a9347c24bcb3cbf26781961", (req,res) -> "loaderio-fa6f90599a9347c24bcb3cbf26781961");
+
     }
 
     private static String redisSetContent(String key, String value) {
