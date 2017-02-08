@@ -35,6 +35,9 @@ public class HelloWorld implements SparkApplication {
         // Hello World with external Database
         get("/redis",(req,res) -> "This text comes from Database: " + redisContent("hello"));
 
+        // loader io
+        get("/loaderio-c1be3a6de2480430d7e499ae5d5beaf1/", (req,res) -> "loaderio-c1be3a6de2480430d7e499ae5d5beaf1");
+
         // Not working: it says req.params is empty
         // post("/redis",(req,res) -> redisSetContent("hello", req.params("msg")));
 
