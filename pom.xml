@@ -1,15 +1,15 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>es.examplecorp</groupId>
+    <groupId>es.examplecorp.student14</groupId>
     <artifactId>MyApp</artifactId>
     <packaging>war</packaging>
     <version>1.1-SNAPSHOT</version>
     <name>MyApp Webapp</name>
     <url>http://maven.apache.org</url>
     <scm>
-        <connection>scm:git:git@github.com:devops-studentXX/myapp.git</connection>
-        <url>scm:git:git@github.com:devops-studentXX/myapp.git</url>
-        <developerConnection>scm:git:git@github.com:devops-studentXX/myapp.git</developerConnection>
+        <connection>scm:git:git@github.com:devops-student14/myapp.git</connection>
+        <url>scm:git:git@github.com:devops-student14/myapp.git</url>
+        <developerConnection>scm:git:git@github.com:devops-student14/myapp.git</developerConnection>
         <tag>MyApp-1.0</tag>
     </scm>
 
